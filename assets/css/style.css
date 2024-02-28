@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+    min-height: 100vh;
+    background-color: white;
+   
+  }
+  */
+.side-navbar {
+  margin-left: -300px;
+  transition: 0.4s;
+}
+.side-navbar ul{
+  margin-top: 50px;
+}
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  transition: 0.4s;
+}
+
+#menu-btn {
+  margin-left: -80px;
+  border: none;
+  cursor: pointer;
+}
+
+#menu-btn:hover{
+  border: 1px solid #1bf840;
+}
+
+#item:hover {
+  background-color: #1bf840;
+  color: white;
+}
+
+/*small devices(landscape phones,576px and up)*/
+@media(min-width:500px) {
+  .active-cont {
+    margin-left: 130px;
+  }
+}
+
+/*meduim devices(tablets,768px and up)*/
+@media (min-width:768px) {
+  .active-cont {
+    margin-left: 130px;
+  }
+}
+
+/* large devices(desktop,992px and up)*/
+@media (min-width:992px) {
+  .active-cont {
+    margin-left: 220px;
+  }
+}
+
+/*offers and food  and users style*/
+
+.btn {
+  /* border: 1px solid #1bf840; */
+  /* width: 25px; */
+  background-color: #1bf840;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #1bf840;
+  border: 1px solid #1bf840;
+  outline: none;
+  box-shadow: none;
+}
+
+.file {
+  border: 1px solid gray;
+}
+
+.link-dark{
+  font-size: 1.1rem;
+}
+
+.link-dark:hover {
+  color:#1bf840 ;
+  
+}
+
+
+      /*.alert{
+  background-color: #1bf840;
+  color:#fff;
+}*/
+
+/* edit_food */
+.btn .btn-remove{
+  border: 1px solid red;
+background-color: red;
+color: white ;
+width: 120px;
+}
+.btn .btn-remove:hover{
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+
+}
+
+
+
+.image-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.image-wrapper {
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+
+img {
+height: 150px;
+width: 150px;
+margin-bottom: 10px;
+
+}
+/* end */
+
+/* login */
+    input{
+     color: darkgrey;
+     border: 1px solid black;
+    }
+    input:before,
+    input:focus{
+  background-color: white;
+  border: 3px soild white;
+    }
+    .alert{
+      background-color:red;
+      color:#fff;
+    }
+   .form{
+      width:250px
+   }
+   /* end */
